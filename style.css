@@ -450,8 +450,25 @@ button {
 .plans:hover {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(126, 126, 126, 0.4);
-    background-color: #7143FF;
     color: #ffffff;
 
 }
+
+.plans:hover {
+
+    animation: changeColor 3s;
+}
+
+@keyframes changeColor {
+
+    50% {
+        background-color: #7143FF;
         
+    }
+
+    100% {
+        background-color: #ececec;
+
+        
+    }
+}
