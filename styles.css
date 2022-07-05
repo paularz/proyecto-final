@@ -1,4 +1,36 @@
-/* Especialidades */
+/* Hero */
+
+.dark-bg {
+    background-image: url('img/hero.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#hero .container {
+    height: 100vh;
+}
+
+.titulo {
+    color: #000000;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+#btn-hero{
+    background-color: #7143FF;
+    color: #FFFFFF;
+    width: 150px;
+    margin-top: 20px;
+
+}
+
+#hero-p {
+    color: #000000;
+    font-weight: 500;
+}
+
+/* Quienes somos */
 
 .somos {
     padding-top: 100px;
@@ -127,3 +159,7 @@ footer a {
 .banr {
     margin-top: 90px;
 }
+
+
+/*  Transiciones y animaciones */
+
