@@ -14,34 +14,37 @@
     
 <!-- Nav -->
 
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #ffffff;">
-            <div class="container-fluid">
-              <img src="img/logo.png" alt="Image" class="img-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#somos">QUIENES SOMOS</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#espec">ESPECIALIDADES</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#planes">PLANES</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contacto">CONTACTO</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+<header>
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #ffffff;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" height="24"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#somos">QUIENES SOMOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#espec">ESPECIALIDADES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#planes">PLANES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">CONTACTO</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+       
+
+
     </header>
 
 
@@ -95,20 +98,20 @@
       </div>
 
     <div class="row" data-aos="fade-up">
-        <div class="col">
+        <div class="col-lg-4 col-sm-12">
             <img src="img/herramienta.png" class="img-fluid" alt="..." width="80" height="80">
             <h3>Odontología general</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo optio dolore eius dolor, fuga, veniam 
            voluptatem et suscipit quas facere tempora incidunt cupiditate officia  </p>
         </div>
-        <div class="col">
+        <div class="col-lg-4 col-sm-12">
             <img src="img/implantes.png" class="img-fluid" alt="..." width="80" height="80">
             <h3>Implantología</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo optio dolore eius dolor, fuga, veniam 
             voluptatem et suscipit quas facere tempora incidunt cupiditate officia  
            </p>
         </div>
-        <div class="col">
+        <div class="col-lg-4 col-sm-12">
             <img src="img/diente.png" class="img-fluid" alt="..." width="80" height="80">
             <h3>Estética dental</h3>  
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo optio dolore eius dolor, fuga, veniam 
@@ -214,25 +217,29 @@
 <!-- Contacto -->
 
 <section id="contacto">
-<div class="row justify-content-center">
-  <div class="col-6 mapa">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0167132768424!2d-58.38375908477038!3d-34.60373888045957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1653876839660!5m2!1ses-419!2sar"
-     width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    
-  </div>
-  <div class="col-6 contacto">
-    <h2 >Contacto</h2>
-    <div class="mb-3 align-items-center">
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Asunto">
+  <div class="container d-flex justify-content-center">
+    <div class="row align-items-center">
+      <div class="col-lg-6 contacto" data-aos="fade-right">
+        <h2>Contacto</h2>
+        <div class="mb-3 align-items-center">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Asunto">
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        
+      </div>
+      <div class="col-lg-6" data-aos="fade-left">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0167132768424!2d-58.38375908477038!3d-34.60373888045957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1653876839660!5m2!1ses-419!2sar"
+         width="550" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
-    <div class="mb-3">
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
   </div>
-</div>
 </section>
+
+
 
 
 <!-- Footer -->
